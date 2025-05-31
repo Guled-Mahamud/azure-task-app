@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1> Task Manager</h1>
+      <p>Organize your day, one task at a time.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="task-list">
+      <h2>Your Tasks</h2>
+      <div id="task-container"></div>
+    </section>
+
+    <section class="add-task">
+      <h2>Add New Task</h2>
+      <form id="add-task-form">
+        <input type="text" id="task-title" placeholder="Task title..." required>
+        <textarea id="task-description" placeholder="Task description..."></textarea>
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Task Manager. All rights reserved.</p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

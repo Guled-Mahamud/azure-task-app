@@ -1,0 +1,126 @@
+
+
+
+
+# Local .terraform directory
+**/.terraform/
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive input files
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+
+# Lock info
+.terraform.tfstate.lock.info
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# Terraform plan output (optional)
+*.tfplan
+
+
+# Certificates
+
+
+certs/*.pfx
+
+
+# Python
+
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / C extensions
+__pycache__/
+*.py[cod]
+*.so
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage / test cache
+.coverage
+.coverage.*
+.cache
+.nox/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Unit test output
+*.cover
+*.py,cover
+.hypothesis/
+
+# Mypy, Pyre, Pytype
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Django/Flask
+*.log
+instance/
+.webassets-cache
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+
+# Build artifacts
+
+
+build/
+dist/
+downloads/
+.eggs/
+*.egg
+*.egg-info/
+.installed.cfg
+lib/
+lib64/
+sdist/
+wheels/
+share/python-wheels/
+
+
+# Docs
+
+
+docs/_build/
+site/
+
+
+
+.DS_Store
+
+#################################
+# Optional: IDE settings (uncomment if needed)
+#################################
+
+#.idea/
+.spyderproject
+.spyproject
+.ropeproject

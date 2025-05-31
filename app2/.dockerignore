@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.env
+.venv
+.vscode/
+.git/
+.gitignore
+Dockerfile
+.dockerignore
+terraform/
+*.tfstate*
+certs/
